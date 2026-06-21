@@ -15,4 +15,5 @@ Transaction Controller when any sampler fails.
 1. Add GoTo Controller under Thread Group
 2. Add Transaction Controllers inside it
 3. Select target TC in the dropdown
-4. Run test — on any failure it jumps to target TC
+4. Select 'Continue' as action to be taken after sampler error in Thread Group
+5. Run test — on any failure it jumps to target TC
